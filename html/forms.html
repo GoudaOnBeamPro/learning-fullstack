@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Demo</title>
+  </head>
+
+  <body>
+    <h1>Login</h1>
+
+    <!--
+      The action attr. tells our web app where to send data
+      The method attr. tells our web app what HTTP method to use. It's either
+      GET or POST.
+      The name attr. gives a name to the data that then shows up in the query
+      string in the URL.
+      Labels make the inputs in our forms accessible to screen-readers. The
+      for attr. must match the id attr. for the corresponding input.
+      The required attr. makes sure that there is something in the input when
+      the form is submitted. This is called the presence validation. This is
+      not implemented in all browsers.
+      Type validations make sure the input is of the specified type. It's as
+      simple as changing the type of the input attr.
+    -->
+    <form>
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="email" required>
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="password" required>
+      <input type="submit">
+    </form>
+  </body>
+
+</html>
