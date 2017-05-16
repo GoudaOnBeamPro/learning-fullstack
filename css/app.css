@@ -1,0 +1,31 @@
+h1 {
+  color: #FA8072;
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 2px solid rgba(240,0,100, .6);
+}
+
+h4 {
+  color: rgba(240,0,100, .6);
+}
+
+li {
+  color: green;
+}
+
+body {
+  background: pink;
+  /*background: #95a5a6;*/
+  /*background: url(http://www.ashtangabutterfly.com/images/wood-grain-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+div {
+  background: #3498db;
+}
+
+p {
+  color: #ecf0f1;
+}
